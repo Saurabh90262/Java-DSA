@@ -1,0 +1,24 @@
+Compile the Code : javac filename.java
+Run the code : java filename.java
+
+Array Length calculation = arr.length
+
+Arrays works on Pass by reference
+Pass by value : The change in value of the variable inside the function does not reflected in function calling or main function
+Pass by reference : The change in value of the variable inside the function is also reflected in function calling or inside the main function
+
+The Lagest possible Integer value : Integer.MAX_VALUE      (- infinity)
+The Smallest possible Integer value : Integer.MIN_VALUE    (+ infinity)
+
+If there are n elements in an array then the total number of pairs in the array is ( n(n-1) ) / 2
+Numbers of Sub-arrays in an array is : ( n(n+1) ) / 2
+Time Complexity of Binary Search is : O(log n)
+Time Complexity of Linear Search is : O(n)
+Time Complexity of reversing array by Swapping is : O(n) 
+Space Complexity of reversing array by Swapping is : O(1) constant
+
+
+
+Home Work :
+Practice Linear search in array of Strings
+

@@ -1,0 +1,33 @@
+Bubble Sort : This sorting technique sorts the array by swapping the adajacent bigger element to its right place depending on need that sorting is needed in ascending or descending order.
+
+we pick the laregest element and comapre it with its ajjacent element and then swap it if needed
+
+Time Complexity is : O(n^2)
+
+Selection sort : This is a sorting technique that sorts the array in way that , it first selects the minimum element from the whole array and then put it on the 1st index and in same way , it then finds the second smallest element and puts or swaps it with the 2nd position element.
+
+Time Complexity is : O(n^2)
+
+Insertion Sort : This sorting algorithm picks the element one by one and place / insert it at its correct position , like sorting of cards.
+
+Time Complexity : O(n^2)
+
+Inbuilt sorting :
+
+Arrays.sort(arr) : Arrays is class
+                   sort is finction and (arr) is array which is passes as arguments
+To use it import : import java.util.Arrays;
+This Complexity : O(n log n)
+
+Arrays.sort(arr,start idx,end idx);
+To sort in reverse : Arrays.sort(arr,Collections.reverseOrder()); but this (Collections.reverseOrder()) will not work for arrays declared like { int arr [] = { } },
+because int is primitive data type.
+It will work on Oject Data type Which means array declared with Integer arr[] instead of int arr[].
+
+Counting Sort : In this sorting algorithm we first determine the range of numbers by finding the largest number 
+then we count the frequency of all the elements and store them in counting array of the length range+1 (for including 0 also)
+we put the coung of frequency of each element at its index value and reset the values of original array by putting these frequency count, same number of times which they appeared.
+
+Time Complexity : n log n and O(n) in some cases
+count sort is used specially for positive numbers but we can modify it for negative numbers also
+It is used where the range is smaller

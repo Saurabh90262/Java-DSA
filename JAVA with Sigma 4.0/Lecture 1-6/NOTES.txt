@@ -1,0 +1,52 @@
+NOTES
+
+Variables in java
+
+
+Primitive Data Type 
+
+There are 8 primitive data Types in java 
+byte    = 1 byte [8 bits = 1 bytes, range(-128 to 127)]
+short   = 2 bytes
+char    = 2 bytes
+boolean = 1 bytes (true/false)
+int     = 4 bytes;
+long    = 8 bytes;
+float   = 4 bytes;
+double  = 8 bytes;
+
+
+Non Primitive Datatypes in java
+
+String
+Array
+ClassObject
+Interface
+
+______________________________________________________________
+
+Inputs in java with help of Scanner class
+
+next()
+nextLine()
+nextInt()
+nextByte()
+nextFloat()
+nextDouble()
+nextBoolean()
+nextShort()
+nextLong()
+______________________________________________________________
+
+Type Conversion 
+
+conversion is possible in this case(type / implicit / widening conversion)
+
+byte -> short -> int -> float -> long -> double
+
+99f means = 99 will be converted into float. 
+
+Type Casting (narrowing / explicit conversion)
+
+int b = (int)25.12;  will be converted in integer
+characters can be manipulated in numbers

@@ -1,0 +1,18 @@
+1. Functions that are written under the classes in java are called Methods;
+2. Formal Parameters : The parameters which are passed in function defination are called formal parameters or just parameters.
+3. Actual Parameters : The values or parameters which are used in the calling of a function or at the time of calling a function are called actual parameters;
+4. Functions in java uses some part of call stack memory. Call stack tracks that which functions are being called and which function is calling the other functions.
+Functions Occupy memory in call stack and whenever a new function is encountered then that function occupies another stack frame ( a part of stack memory above the previous stack frame). As soon as the functions returns then the stack memory occupied by the function is freed.
+Call By Value : Call by value means , parameters of the function creates the copy of the actual parameters and the changed or modified value of variables under the function will not reflect in the main function.
+Call By Reference : The function in which original values are passed as parameters are called Call By Reference.
+Java Does not have call By Reference, it only has Call By Value.
+Functions and Methods are interchangable terms.
+There are two types of functions 1. Userdefined Functions 2.Inbuilt Finctions / methods.
+Function Overloading : Multiple functions under same class with the same name but different parameters.
+In java it is allowed to make multiple functions with same name but have different type of parameters or performing different work or accepting different numbers of parameters. It is called Function Overloading.
+This helps programmers to make remember the names of the functions easily.
+In function overloading the return type of both the functions should be same , but the number of parameters may differ.
+Types of Function Overloading 
+        1. By variying return type.
+        2. By variying number of parameters.
+        

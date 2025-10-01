@@ -1,0 +1,51 @@
+Objects : Objects are real world entities , eg. pen , car, etc.
+Classes : Classes are the group of these entities.
+Classes comprises of two things 
+1. Attributes (properties) : color,size,etc.
+2. Functions (behaviour) : functions to change the properties (Attributes) of the object.
+
+It is convention that the names of classes of java start with Capital letters.
+
+Pen p1 = new Pen(); : new Pen() is called as constructor;
+
+Acess Modifiers : It tells us that which part are acessible to which part of Program;
+There are 4 acess Modifiers in java :
+1. Private : Within class
+2. Default : Within class , within package
+3. protected : Within class , within package, outside package by subclass only
+4. public : Within class , within package, outside package by subclass only, outside package.
+
+Getters & Setters 
+
+Get : to return the value
+Set : to modify the value
+
+this : this keyword is used to refer to the current Object, wich is calling it
+
+OPPS is based on Four important pillars
+1. Encapsulation
+2. Inheritance
+3. Abstraction
+4. Polymorphism
+
+
+1. Encapsulation : 
+Encapsulation is defined as the wrapping up of data & methods under a single unit (i.e class). It also implements data hiding, by making sensitive data private or default or protected.
+here data means properties and methods means functions defined in the class.
+
+Constructors : Constructor is a special method which is invoked automatically at the time of object creation.
+Constructors have the same name as class or structure.
+Constructors don't have a return type. (Not even void)
+Constructors are only called once, at the time of object creation.
+Memory allocation happens when constructor is called.
+Java makes Constructor itself only when we have not made any constructor.
+
+Types of Constructors : There are primarily three types of constructors in java
+1. Non - parameterized
+2. Parameterized
+3. Copy Constructor
+
+Constructor Overloading : The phenemenon due to which the constructor identifies by itself that which constructor is to be called is called Constructor Overloading, and this is the example of the Polymorphism.
+
+NO Class in java can be made with private and protected
+Nested class in java are called as Aggregation

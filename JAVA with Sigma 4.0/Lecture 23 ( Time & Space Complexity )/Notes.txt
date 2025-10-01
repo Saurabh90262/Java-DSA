@@ -1,0 +1,28 @@
+Time Complexity : Amount of Space ot Time taken up by an algorithm/code as function of input size.
+
+Big O Notation : Upper bound of time Complexity, or Worst case Time Complexity.
+Method to Obtain Time Complexity for Big O Notation;
+    1. Ignore the Constants
+    2. Take the Largest term
+    3. Put it as Complexity of Big O.
+
+Big Omega Notation : Lower bound of time Complexity, or Best case Time.
+Big Theta Notation : Average case Time Complexity.
+
+
+Small O Notation : Lossely calculated Time Complexity. (Loose Bound Time Complexity).
+
+Constant Time Complexity : for big input size, Constant Time Complexity will perform better as compared to nlogn.
+
+Some Common Time Complexity :
+    O(1)
+    O(log n)
+    O(n)
+    O(n^2)
+    O(2^n)
+
+Space Complexity : Space aquired by the code while running time
+Space is aquired in two ways :
+Heap : Stores objects
+Stack : Stores call Stacks
+

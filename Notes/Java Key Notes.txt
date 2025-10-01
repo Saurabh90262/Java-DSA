@@ -1,0 +1,215 @@
+📌 Java Commonly Used Methods & Utilities
+1️⃣ Printing
+
+System.out.print() → Prints data (no new line).
+
+System.out.println() → Prints data + new line.
+
+2️⃣ Math Class Methods
+
+Math.sqrt(x) → Square root.
+
+Math.floor(x) → Largest integer ≤ x.
+
+Math.ceil(x) → Smallest integer ≥ x.
+
+3️⃣ Integer Constants
+
+Integer.MIN_VALUE → Minimum int value.
+
+Integer.MAX_VALUE → Maximum int value.
+
+4️⃣ Arrays Class Methods
+
+arr.clone() → Copy of array.
+
+Arrays.copyOf(array, len) → Copy into new array of given length.
+
+Arrays.copyOfRange(array, from, to) → Copy subarray.
+
+Arrays.binarySearch(array, key) → Search element using binary search.
+
+Arrays.binarySearch(array, from, to, key, cmp) → Search with custom comparator.
+
+Arrays.compare(arr1, arr2) → Lexicographically compare arrays.
+
+Arrays.sort(array) → Sort ascending.
+
+Arrays.sort(array, from, to) → Sort only range.
+
+Arrays.equals(arr1, arr2) → Check equality.
+
+Arrays.deepEquals(arr1, arr2) → Check deep equality (2D arrays).
+
+Arrays.mismatch(arr1, arr2) → Index of first mismatch, else -1.
+
+5️⃣ String Methods
+
+str.length() → Length of string.
+
+str.charAt(i) → Character at index.
+
+str.indexOf(ch) → Index of first occurrence.
+
+str1.compareTo(str2) → Compare lexicographically.
+
+0 → equal, >0 → str1>str2, <0 → str1<str2.
+
+str.contains("sub") → Check substring.
+
+str.startsWith("pre") → Check prefix.
+
+str.endsWith("suf") → Check suffix.
+
+str.toUpperCase() → Convert to uppercase.
+
+str.toLowerCase() → Convert to lowercase.
+
+str1.concat(str2) → Concatenate strings.
+
+str + val → Concatenate with other types.
+
+str.substring(start) → Substring from index.
+
+str.substring(start, end) → Substring (end excluded).
+
+str1.equals(str2) → Equality check.
+
+🔹 Notes:
+
+Strings = Immutable.
+
+"text" uses String Pool, new String("text") → new object.
+
+Use StringBuilder for modification.
+
+6️⃣ StringBuilder Methods
+
+sb.setCharAt(i, ch) → Change char.
+
+sb.append(val) → Append.
+
+sb.insert(i, val) → Insert.
+
+sb.deleteCharAt(i) → Delete at index.
+
+sb.delete(start, end) → Delete range.
+
+sb.reverse() → Reverse string.
+
+7️⃣ HashSet Methods
+
+set.add(val) → Insert.
+
+set.remove(val) → Remove.
+
+set.contains(val) → Check exists.
+
+set.size() → Size.
+
+8️⃣ HashMap Methods
+
+map.put(k, v) → Insert/update.
+
+map.get(k) → Get value (or null).
+
+map.containsKey(k) → Check key.
+
+map.remove(k) → Delete entry.
+
+✅ Additional DSA Essentials
+9️⃣ ArrayList
+
+list.add(val) → Insert.
+
+list.get(i) → Access.
+
+list.set(i, val) → Update.
+
+list.remove(i) → Remove.
+
+list.size() → Size.
+
+🔟 Stack
+
+st.push(x) → Push.
+
+st.pop() → Remove + return top.
+
+st.peek() → Top element.
+
+st.isEmpty() → Empty check.
+
+1️⃣1️⃣ Queue (LinkedList)
+
+q.add(x) → Enqueue.
+
+q.remove() → Dequeue.
+
+q.peek() → Front element.
+
+q.isEmpty() → Empty check.
+
+1️⃣2️⃣ PriorityQueue (Heap)
+
+pq.add(x) → Insert.
+
+pq.poll() → Remove top.
+
+pq.peek() → Access top.
+
+1️⃣3️⃣ Deque (Double-ended Queue)
+
+dq.addFirst(x) → Insert front.
+
+dq.addLast(x) → Insert back.
+
+dq.removeFirst() → Remove front.
+
+dq.removeLast() → Remove back.
+
+dq.peekFirst() → Access front.
+
+dq.peekLast() → Access back.
+
+1️⃣4️⃣ TreeMap
+
+map.firstKey() → First key.
+
+map.lastKey() → Last key.
+
+map.higherKey(k) → Next greater key.
+
+map.lowerKey(k) → Next smaller key.
+
+1️⃣5️⃣ TreeSet
+
+set.ceiling(x) → ≥ element.
+
+set.floor(x) → ≤ element.
+
+1️⃣6️⃣ Bit Manipulation Shortcuts
+
+x & 1 → Odd/even check.
+
+x << 1 → Multiply by 2.
+
+x >> 1 → Divide by 2.
+
+x & (x-1) → Remove lowest set bit.
+
+Integer.bitCount(x) → Count set bits.
+
+Integer.toBinaryString(x) → Binary form.
+
+1️⃣7️⃣ Useful Collections Methods
+
+Collections.sort(list) → Sort ascending.
+
+Collections.sort(list, Collections.reverseOrder()) → Sort descending.
+
+Collections.max(list) → Maximum element.
+
+Collections.min(list) → Minimum element.
+
+Collections.frequency(list, val) → Count occurrences.

@@ -1,0 +1,14 @@
+1 Byte = 8 bits
+for even numbers LSB is always = 0
+for odd numbers LSB is always = 1
+
+To get Ith bit = n & (1<<i)
+To set Ith bit = (n | (1<<i) ) set bit means set the ith bit to 1
+To clear Ith bit =( n & (~(1 << i )) )  make the ith bit zero
+To Update Ith bit by new bit = clearBit(n,i) | (newBit << i)
+
+Power of Two : if n & (n-1) == 0 : then it is power of two;
+all numbers which are power of follow that n & (n-1) = 0;
+
+Number of bits to represent a number in bonary is : log2 n + 1;
+Modular exponentiation : Calculation of (a^n)%x;

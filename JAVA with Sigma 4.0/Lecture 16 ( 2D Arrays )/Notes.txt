@@ -1,0 +1,4 @@
+Generally matrix or 2D arrays are stored in column major or row major order in the memory in other langiages.
+but in java Column and row major does not exists.
+each row of 2D arrays is split into seperate isdividual array and are stored at different locations in the memory
+there is a parent array which points to the each individual array

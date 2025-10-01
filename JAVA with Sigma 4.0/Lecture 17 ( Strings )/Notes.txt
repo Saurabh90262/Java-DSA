@@ -1,0 +1,27 @@
+String in Java are Immutable
+String is an inbuilt class which can be invoked and used to declare strings
+length of a string : str.length(),  .length() is a function that calculates the length of a string.
+
+Interning Property of Java : whenever you declare more then one string with same values then only one string will be created in the memory and rest will point to the same location in the memory,
+but when we daclare more than one string with same values with new keyword then, this time the string declaed with new keyword will be created a totally new string at some different location in the memory.
+
+str.equals(str2) : returns true if two strings are equal by their values.
+str.subsring(start idx,end idx) : used to print the substring from the starting idx to ending idx.
+
+lexiographically : comparing the value of letters eg. a<b and c>a
+
+str1.compareTo(str2) : compares two strings lexiographically
+returns o : equal
+        -ve : str1 < str2
+        +ve : str1 > str2
+
+str1.compareToIgnoreCase(str2) : compares two strings ignoring case difference ( a = A) is treated as same.
+
+StringBuilder : 
+declaration : SrtingBuilder sb = new SrtingBuilder("Hello");
+sb.toString() : used to convert any object into String
+int a=10; cannot be converted into String
+Integer a=10 cab be converted into String , because int is not an Object but Integer is an object.
+sb.append() : used to add or append new values to the StringBuilder;
+
+Que : Solve String compression with help of StringBuilder;

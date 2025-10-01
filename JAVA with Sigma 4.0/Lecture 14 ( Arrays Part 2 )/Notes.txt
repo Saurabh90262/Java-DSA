@@ -1,0 +1,10 @@
+Prefix - sum for max sub-array = prefixSum[end] - prefixSum[start-1] , where end and start are the indices of ending and starting element of sub array
+Kadane Algorithm = based on the fact that , we have to add the sub arrays untill it becomes negative and as it become negative, we have to make the max sum = 0 ;
+but we this will not work for arrays in which max is a negative number, Therefore we have to put another if else to hadle negative array cases;
+Trapping Rain water : 
+case 1 : when bars are single and pair then trapped water = 0
+therefore for trapping water ( no of bars > 2)
+If Bars are arranged in ascending or descending order then no water will be trapped.
+Logical Method :
+water level = Min of (max left boundary, max right boundary);
+trapped water = water level - height of bar;
